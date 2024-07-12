@@ -4,7 +4,7 @@ function openWhatsApp() {
     alert("Please Enter The Number!");
   } else {
     window.open(
-      `https://api.whatsapp.com/send/?phone=${phoneNumber}&text&type=phone_number&app_absent=0`,
+      `https://api.whatsapp.com/send/?phone=${phoneNumber}`,
       "_blank"
     );
   }
